@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+console.log('test');
 function App() {
 	const [fname, setFname] = useState('');
 	const getName = (e) => {
